@@ -13,7 +13,7 @@ def check_list(stop_number):
 if __name__ == '__main__':
     N = input('введите N: ')
     while int(N):
-        res = check_list(N)
+        res = check_list(int(N))
         print('numbers:', res, sep='\n')
         N = input('введите N: ')
     
